@@ -11,4 +11,51 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
+  max-width: 1600px;
+}
+
+nav {
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
+  display: flex;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-items {
+  text-decoration: underline;
+  padding: 0 1rem;
+}
+
+a:link {
+  color: seashell;
+}
+a:visited {
+  color: seashell;
+}
+a:hover {
+  color: purple;
+}
+a:active {
+  color: purple;
+}
+
+.featured-imaged {
+  height: 200px;
+  width: 300px;
 }
